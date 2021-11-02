@@ -176,4 +176,5 @@ Feedstock Maintainers
 * [@beatrizserrano](https://github.com/beatrizserrano/)
 * [@bgruening](https://github.com/bgruening/)
 * [@davelopez](https://github.com/davelopez/)
+* [@traversaro](https://github.com/traversaro/)
 
