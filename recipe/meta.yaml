@@ -17,6 +17,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - make
   host:
     - libiconv
 
@@ -42,3 +43,4 @@ extra:
     - bgruening
     - beatrizserrano
     - davelopez
+    - traversaro
