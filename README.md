@@ -1,11 +1,11 @@
-About diffutils
-===============
+About diffutils-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/diffutils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.gnu.org/software/diffutils/
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/diffutils-feedstock/blob/main/LICENSE.txt)
 
 Summary: GNU Diffutils is a package of several programs related to finding differences between files.
 
