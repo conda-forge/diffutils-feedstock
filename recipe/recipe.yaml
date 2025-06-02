@@ -21,10 +21,10 @@ requirements:
 
 tests:
   - script:
-      - cmp --version
-      - diff --version
-      - diff3 --version
-      - sdiff --version
+    - cmp --version
+    - diff --version
+    - diff3 --version
+    - sdiff --version
 
 about:
   license: GPL-3.0-or-later

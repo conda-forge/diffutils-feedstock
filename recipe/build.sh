@@ -3,7 +3,8 @@
 set -o xtrace -o nounset -o pipefail -o errexit
 
 if [[ ${CONDA_BUILD_CROSS_COMPILATION:-0} == 1 ]]; then
-    export ac_cv_func_strcasecmp=yes
+    echo ac_cv_func_strcasecmp=yes > ${SRC_DIR}/config.site
+    export CONFIG_SITE=${SRC_DIR}/config.site
 fi
 
 ./configure --prefix=${PREFIX} \
