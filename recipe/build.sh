@@ -6,8 +6,6 @@ if [[ ${CONDA_BUILD_CROSS_COMPILATION:-0} == 1 ]]; then
     export ac_cv_func_strcasecmp=yes
 fi
 
-autoreconf --force --verbose --install
-
 ./configure --prefix=${PREFIX} \
     --libdir=${PREFIX}/lib \
     --build=${BUILD} \

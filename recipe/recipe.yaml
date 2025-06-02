@@ -17,12 +17,7 @@ requirements:
   build:
     - ${{ compiler('c') }}
     - ${{ stdlib('c') }}
-    - autoconf
-    - automake
     - make
-  host:
-    - libiconv
-    - libtool
 
 tests:
   - script:
